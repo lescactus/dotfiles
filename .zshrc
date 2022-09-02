@@ -122,33 +122,6 @@ export GOPATH="$HOME/go"
 # disable dotnet telemetry
 export DOTNET_CLI_TELEMETRY_OPTOUT="1"
 
-# Nexus read only SA
-export NEXUS_ALL_READ_USERNAME='nexus-all-read@moodagent.com'
-export NEXUS_ALL_READ_PASSWORD='6[WgHCX?Xcg8P2#YV%S4MKBu)6h{s*E)'
-export PIP_INDEX_URL_ARG="https://${NEXUS_ALL_READ_USERNAME}:6%5BWgHCX%3FXcg8P2%23YV%25S4MKBu%296h%7Bs%2AE%29@nexus.moodagent.io/repository/pypi-all/simple"
-
-#export MONGODB_ATLAS_PUBLIC_KEY=vsulzmue                           
-#export MONGODB_ATLAS_PRIVATE_KEY=8890dfb8-9a45-46d0-ac56-25fe4437d35e
-
-
-function get_token_staging() {
-aws --profile alexandre.staging cognito-idp initiate-auth \
-    --client-id 5bso574jksu0e257qagesh8ofd \
-    --auth-flow USER_PASSWORD_AUTH \
-    --auth-parameters USERNAME='alma@moodagent.com',PASSWORD='Mefaki$10' \
-    --query 'AuthenticationResult.AccessToken' \
-    --output text
-}
-
-function get_token_prod() {
-aws --profile alexandre.prod cognito-idp initiate-auth \
-    --client-id 640sihpk53hl4pm5kri73l3e1s \
-    --auth-flow USER_PASSWORD_AUTH \
-    --auth-parameters USERNAME='alma@moodagent.com',PASSWORD='Mefaki$10' \
-    --query 'AuthenticationResult.AccessToken' \
-    --output text
-}
-
 
 autoload -U compinit && compinit
 
