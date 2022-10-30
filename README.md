@@ -21,3 +21,7 @@
 [x] DroidSansMono Nerd
 
 [x] DejaVu Sans
+
+[X] https://github.com/adi1090x/polybar-themes fonts
+
+[X] Iosevka Nerd Font
