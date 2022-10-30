@@ -22,6 +22,8 @@
 
 [x] DejaVu Sans
 
-[X] https://github.com/adi1090x/polybar-themes fonts
+[x] https://github.com/adi1090x/polybar-themes fonts
 
-[X] Iosevka Nerd Font
+[x] Iosevka Nerd Font
+
+[x] FuraMono Nerd Font
