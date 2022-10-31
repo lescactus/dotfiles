@@ -16,6 +16,8 @@
 
 [x] yad - GTK+ dialog boxes
 
+[x] networkmanager_dmenu - control NetworkManager via dmenu
+
 ** Fonts **
 
 [x] DroidSansMono Nerd
