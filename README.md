@@ -26,7 +26,7 @@
 
 [x] DejaVu Sans
 
-[x] https://github.com/adi1090x/polybar-themes fonts
+[x] https://github.com/adi1090x/polybar-themes fonts (Icomoon feather)
 
 [x] Iosevka Nerd Font
 
