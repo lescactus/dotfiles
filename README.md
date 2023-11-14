@@ -2,6 +2,8 @@
 
 [x] i3-gaps - tilling window manager
 
+[X] i3lock-color - i3lock with colors
+
 [x] polybar - status bar
 
 [x] betterlockscreen - lock screen manager
