@@ -18,6 +18,8 @@
 
 [x] networkmanager_dmenu - control NetworkManager via dmenu
 
+[X] flameshot - screenshot software
+
 ** Fonts **
 
 [x] DroidSansMono Nerd
